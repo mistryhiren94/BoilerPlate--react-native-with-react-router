@@ -6,7 +6,7 @@ export default StyleSheet.create({
   container: {
     height: "100%",
     flexDirection: "column",
-    backgroundColor: "#e8e8e8"
+    backgroundColor: "#fff"
   },
   alignContainer: {
     flex: 1,
@@ -14,17 +14,17 @@ export default StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   },
-  mainView: {
+  drawerContentalign: {
     height: "100%"
   },
-  mainBody: {
-    flex: 1,
+  alignRow: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center",
-    marginTop: 50
-  },
-  alignBody: {
+    borderBottomColor: "#e8e8e8",
+    borderBottomWidth: 1,
     padding: 10
+  },
+  paddingLeft10: {
+    paddingLeft: 10
   }
 });
